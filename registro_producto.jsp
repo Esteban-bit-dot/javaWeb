@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Registro_producto</h1>
-        <form action="" m ="">
+        <form action="" me ="">
             <label"digite el nombre del producto:" ></label>
             <input text="" name="producto" ></input>
             <label text="digite el tipo de producto:"></label>
