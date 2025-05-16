@@ -7,11 +7,13 @@
     </head>
     <body>
         <h1>Registro_producto</h1>
-        <form action="" me ="">
-            <label"digite el nombre del producto:" ></label>
-            <input text="" name="producto" ></input>
+        <form action="/submit" method="post">
+            <label text="digite el nombre del producto:" ></label>
+            <input type="text" id="name" name="producto" ></input>
             <label text="digite el tipo de producto:"></label>
-            <input text="" name="tipo" ></input>
+            <input type="text" id="tipo" name="tipo" ></input>
+            
+            <button type="submit">Enviar</button>
             
         </form>
     </body>
