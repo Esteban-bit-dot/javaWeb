@@ -7,11 +7,10 @@
     </head>
     <body>
         <h1>Registro_enfermedad</h1>
-        <form action="" m ="">
-            <label text="digite el nombre:"></label>
-            <input text="" name="nombre" ></input>
-            <label text="digite el tipo:"></label>
-            <input text="" name="tipo"></input> 
-        </form>
+    <form action="/submit" method="post">
+        <label text="digite el nombre"><label>
+        <input type="text" id="name" name="nombre" required>
+        <button type="submit">Enviar</button>
+    </form>
     </body>
 </html>
