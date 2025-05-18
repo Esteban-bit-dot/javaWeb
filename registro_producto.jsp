@@ -6,11 +6,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro_producto</h1>
+        <h1>Registro_huerta</h1>
         <form action="/submit" method="post">
-            <label text="digite el nombre del producto:" ></label>
-            <input type="text" id="name" name="producto" ></input>
-            <label text="digite el tipo de producto:"></label>
+            <label text="digite el nombre:" ></label>
+            <input type="text" id="name" name="huerta" ></input>
+            <label text="digite el tipo:"></label>
             <input type="text" id="tipo" name="tipo" ></input>
             
             <button type="submit">Enviar</button>
