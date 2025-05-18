@@ -6,11 +6,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro_enfermedad</h1>
-    <form action="/submit" method="post">
+     <h1>Registro_enfermedad</h1>
+     <form action="/submit" method="post">
         <label text="digite el nombre"><label>
         <input type="text" id="name" name="nombre" required>
         <button type="submit">Enviar</button>
-    </form>
+     </form>
+
+     <h2>Registro_humedad</h2>
+     <form action="/submit" method="post">
+        <label text="digite el nivel de humedad:"><label>
+        <input type="text" id="name" name="humedad" required>
+        <button type="submit">Enviar</button>
+     </form>
     </body>
 </html>
