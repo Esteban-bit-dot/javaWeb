@@ -11,7 +11,7 @@
             <label text="digite el nombre:" ></label>
             <input type="text" id="name" name="nombre" ></input>
             <label text="digite el tipo:"></label>
-            <input type="text" id="tipo" name="tipo" ></input>
+            <input type="text" id="tipo" tipo="tipo" ></input>
             
             <button type="submit">Enviar</button>
             
