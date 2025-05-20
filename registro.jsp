@@ -9,14 +9,14 @@
      <h1>Registro_enfermedad</h1>
      <form action="/submit" method="post">
         <label text="digite el nombre"><label>
-        <input type="text" id="name" name="nombre" required>
+        <input type="text" id="name" enfermedad="enfermedad" required>
         <button type="submit">Enviar</button>
      </form>
 
      <h2>Registro_humedad</h2>
      <form action="/submit" method="post">
         <label text="digite el nivel de humedad:"><label>
-        <input type="text" id="name" name="humedad" required>
+        <input type="text" id="name" humedad="humedad" required>
         <button type="submit">Enviar</button>
      </form>
     </body>
